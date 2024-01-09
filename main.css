@@ -1,18 +1,19 @@
 body {
-  background-color: whitesmoke;
+  background-image: url("16-bit\ background.jpg");
+  background-size: contain;
   margin-top: 50px;
   font-family: Helvetica, sans-serif;
-
 }
 #haley {
   text-align: center;
-  color: limegreen
+  color: whitesmoke;
 }
 .container {
 
 } 
 
 article {
+  background-color: whitesmoke;
   width: 50%;
   box-sizing: border-box;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -20,7 +21,6 @@ article {
   border-radius: 10px;
   margin: 10px auto;
 }
-
 h2:hover {
   color: fuchsia;
 }
@@ -30,7 +30,7 @@ h3:hover {
 }
 
 article:hover {
-  box-shadow: 0 3px 10px rgba(8, 200, 226, 0.772);
+  box-shadow: 0 3px 20px rgba(226, 8, 208, 0.942);
 
 }
 
