@@ -1,3 +1,44 @@
 body {
-  background-color: violet;
+  background-color: whitesmoke;
+  margin-top: 50px;
+  font-family: Helvetica, sans-serif;
+
+}
+#haley {
+  text-align: center;
+  color: limegreen
+}
+.container {
+
+} 
+
+article {
+  width: 50%;
+  box-sizing: border-box;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+h2:hover {
+  color: fuchsia;
+}
+
+h3:hover {
+  color: limegreen;
+}
+
+article:hover {
+  box-shadow: 0 3px 10px rgba(8, 200, 226, 0.772);
+
+}
+
+h1, h2 {
+  color: rgba(8, 200, 226, 0.772);
+  font-family: 'Press Start 2P', system-ui;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
 }
