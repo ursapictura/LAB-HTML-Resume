@@ -3,12 +3,14 @@ body {
   background-size: cover;
   margin-top: 50px;
   font-family: Helvetica, sans-serif;
+  line-height: 1.5;
 }
 #haley {
   text-align: center;
   color: whitesmoke;
 }
 .container {
+  display: flex-wrap;
 
 } 
 
@@ -20,6 +22,7 @@ article {
   padding: 20px;
   border-radius: 10px;
   margin: 10px auto;
+  padding: 20px 40px 60px 40px;
 }
 h2:hover {
   color: fuchsia;
@@ -41,4 +44,9 @@ h1, h2 {
 
 h3 {
   font-family: Helvetica, sans-serif;
+}
+
+time,span {
+  font-weight: 600;
+  font-style: italic;
 }
