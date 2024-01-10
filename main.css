@@ -16,7 +16,7 @@ body {
 
 article {
   background-color: whitesmoke;
-  width: 50%;
+  width: 40%;
   box-sizing: border-box;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding: 20px;
@@ -28,7 +28,7 @@ h2:hover {
   color: fuchsia;
 }
 
-h3:hover {
+#haley:hover,h3:hover {
   color: limegreen;
 }
 
@@ -49,4 +49,21 @@ h3 {
 time,span {
   font-weight: 600;
   font-style: italic;
+}
+
+
+#city {
+  border: 3px solid rgb(22, 189, 189);
+}
+
+#flint {
+  border: 2px dashed rgb(186, 25, 207);
+}
+
+#foundry {
+  border: 2px dotted rgb(15, 196, 138);
+}
+
+#venture {
+  border: 3px solid rgb(246, 144, 237);
 }
